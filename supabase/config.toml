@@ -25,16 +25,16 @@ project_id = "wpcklsnbhsgliuecmyql"
 
 [remotes.production.storage]
 enabled = true
-file_size_limit = "200MiB"
+file_size_limit = "240MiB"
 [remotes.production.storage.buckets.images]
 public = false
-file_size_limit = "170MiB"
+file_size_limit = "171MiB"
 [remotes.production.storage.buckets.subcriptions]
 public = false
-file_size_limit = "10MiB"
+file_size_limit = "101MiB"
 [remotes.production.storage.buckets.krishna]
 public = false
-file_size_limit = "120MiB"
+file_size_limit = "110MiB"
 [remotes.production.storage.buckets.subscriptions]
 public = false
-file_size_limit = "130MiB"
+file_size_limit = "13MiB"
