@@ -105,7 +105,6 @@ enabled = true
 # The maximum file size allowed (e.g. "5MB", "500KB").
 file_size_limit = "100MiB"
 
-
 # Image transformation API is available to Supabase Pro plan.
 # [storage.image_transformation]
 # enabled = true
@@ -113,7 +112,7 @@ file_size_limit = "100MiB"
 # Uncomment to configure local storage buckets
 [storage.buckets.images]
 public = false
-file_size_limit = "50MiB"
+
 
 [auth]
 enabled = true
