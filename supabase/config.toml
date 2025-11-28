@@ -1,4 +1,14 @@
 
+
+[storage]
+enabled = true
+# The maximum file size allowed (e.g. "5MB", "500KB").
+file_size_limit = "100MiB"
+[storage.buckets.images]
+public = false
+
+
+
 # Staging-specific configuration
 [remotes.staging]
 project_id = "hzhylvgckmypslbzkhsq"
@@ -18,23 +28,3 @@ file_size_limit = "30MiB"
 [remotes.staging.storage.buckets.subscriptions]
 public = false
 file_size_limit = "7MiB"
-
-# Production-specific configuration
-[remotes.production]
-project_id = "wpcklsnbhsgliuecmyql"
-
-[remotes.production.storage]
-enabled = true
-file_size_limit = "240MiB"
-[remotes.production.storage.buckets.images]
-public = false
-file_size_limit = "171MiB"
-[remotes.production.storage.buckets.subcriptions]
-public = false
-file_size_limit = "101MiB"
-[remotes.production.storage.buckets.krishna]
-public = false
-file_size_limit = "110MiB"
-[remotes.production.storage.buckets.subscriptions]
-public = false
-file_size_limit = "13MiB"
