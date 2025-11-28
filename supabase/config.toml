@@ -13,7 +13,7 @@ public = false
 
 # Staging-specific configuration
 [remotes.staging]
-project_id = "hzhylvgckmypslbzkhsq"
+project_id = "wpcklsnbhsgliuecmyql"
 
 [remotes.staging.storage]
 enabled = true
