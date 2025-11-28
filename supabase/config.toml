@@ -4,6 +4,6 @@ project_id = "wpcklsnbhsgliuecmyql"
 
 [remotes.staging.storage]
 enabled = true
-file_size_limit = "110MiB"
+file_size_limit = "70MiB"
 [remotes.staging.storage.buckets.images]
 public = false
