@@ -20,13 +20,4 @@ enabled = true
 file_size_limit = "100MiB"
 [remotes.staging.storage.buckets.images]
 public = false
-file_size_limit = "70MiB"
-[remotes.staging.storage.buckets.subcriptions]
-public = false
-file_size_limit = "40MiB"
-[remotes.staging.storage.buckets.krishna]
-public = false
-file_size_limit = "30MiB"
-[remotes.staging.storage.buckets.subscriptions]
-public = false
-file_size_limit = "7MiB"
+
