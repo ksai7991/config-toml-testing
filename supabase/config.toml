@@ -6,6 +6,10 @@ enabled = true
 file_size_limit = "100MiB"
 [storage.buckets.images]
 public = false
+file_size_limit = "50MiB"
+[storage.buckets.subscriptions]
+public = false
+file_size_limit = "90MiB"
 
 
 
