@@ -1,8 +1,6 @@
-[remotes.prod]
-project_id = "wpcklsnbhsgliuecmyql"
-
-[remotes.prod.storage]
+[storage]
 enabled = true
-file_size_limit = "70MiB"
-[remotes.prod.storage.buckets.images]
+# The maximum file size allowed (e.g. "5MB", "500KB").
+file_size_limit = "100MiB"
+[storage.buckets.images]
 public = false
