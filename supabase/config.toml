@@ -4,3 +4,8 @@ enabled = true
 file_size_limit = "100MiB"
 [storage.buckets.images]
 public = false
+[auth]
+additional_redirect_urls = ["https://localhostingtest:3000"]
+
+[experimental]
+webhooks.enabled = true
